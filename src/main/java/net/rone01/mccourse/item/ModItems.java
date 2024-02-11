@@ -11,6 +11,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.rone01.mccourse.MCCourseMod;
+import net.rone01.mccourse.block.ModBlocks;
 
 public class ModItems {
 
@@ -30,6 +31,9 @@ public class ModItems {
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
         entries.add(PINK_GARNET);
         entries.add(RAW_PINK_GARNET);
+
+        entries.add(ModBlocks.PINK_GARNET_BLOCK);
+        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
     }
     public static void registerModItems() {
         MCCourseMod.LOGGER.info("Registering Mod Items for " + MCCourseMod.MOD_ID);
