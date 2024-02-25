@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catergory": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mccourse:pink_garnet"
+    }
+  },
+  "result": {
+    "item": "mccourse:pink_garnet"
+  }
+}
