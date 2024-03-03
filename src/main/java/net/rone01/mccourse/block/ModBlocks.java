@@ -10,6 +10,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.rone01.mccourse.MCCourseMod;
+import net.rone01.mccourse.block.custom.SoundBlock;
 
 public class ModBlocks {
 
@@ -27,6 +28,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE)));
     public static final Block DEEPSLATE_PINK_GARNET_ORE = registerBlock("deepslate_pink_garnet_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)));
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 
 
